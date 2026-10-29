@@ -81,7 +81,6 @@ namespace Game_giữa_kì
             pnlViDu.Controls.Add(lblTieuDe);
 
             PictureBox picViDu = new PictureBox();
-            // Đã sửa: Đẩy ảnh lên tọa độ Y=28 và thu nhỏ chiều cao ảnh xuống 95
             picViDu.Location = new Point(8, 28);
             picViDu.Size = new Size(125, 95);
             picViDu.SizeMode = PictureBoxSizeMode.Zoom;
@@ -96,7 +95,6 @@ namespace Game_giữa_kì
             Label lblGhiChu = new Label();
             lblGhiChu.Text = LayGhiChu(soThuTu);
             lblGhiChu.Font = new Font("Arial", 9);
-            // Đã sửa: Đẩy chữ lên tọa độ Y=128 và bật tự động co giãn AutoSize
             lblGhiChu.Location = new Point(8, 128);
             lblGhiChu.AutoSize = true;
             pnlViDu.Controls.Add(lblGhiChu);

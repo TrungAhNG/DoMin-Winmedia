@@ -57,11 +57,9 @@ namespace Game_giữa_kì {
                 seconds++;
                 lblTime.Text = "⏱ " + seconds.ToString("000");
             };
-
-            // THÊM ĐOẠN NÀY ĐỂ KÍCH HOẠT NÚT QUAY LẠI
             btnBack.Click += (s, e) => {
                 timer.Stop();
-                this.Close(); // Lệnh này sẽ đóng frmGame và tự động văng ra frmMainMenu
+                this.Close(); 
             };
         }
         void NewGame() {
@@ -178,6 +176,21 @@ namespace Game_giữa_kì {
         }
 
         private void pnlBoard_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void frmGame_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTime_Click_1(object sender, EventArgs e)
         {
 
         }

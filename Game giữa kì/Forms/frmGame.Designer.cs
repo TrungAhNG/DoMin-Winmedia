@@ -81,12 +81,13 @@
             // 
             this.btnReset.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnReset.Font = new System.Drawing.Font("Segoe UI Emoji", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.Location = new System.Drawing.Point(331, 3);
+            this.btnReset.Location = new System.Drawing.Point(287, 3);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(48, 36);
+            this.btnReset.Size = new System.Drawing.Size(136, 36);
             this.btnReset.TabIndex = 3;
             this.btnReset.Text = "🙂";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // lblTime
             // 
@@ -100,6 +101,7 @@
             this.lblTime.TabIndex = 4;
             this.lblTime.Text = "⏱ 000";
             this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTime.Click += new System.EventHandler(this.lblTime_Click_1);
             // 
             // btnBack
             // 
@@ -136,6 +138,7 @@
             this.Name = "frmGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dò Mìn - Minesweeper";
+            this.Load += new System.EventHandler(this.frmGame_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
             this.ResumeLayout(false);

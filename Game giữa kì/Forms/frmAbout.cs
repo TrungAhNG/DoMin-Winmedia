@@ -46,11 +46,11 @@ namespace Game_giữa_kì {
                 Font = new Font("Segoe UI", 10),
                 BackColor = Color.White,
                 BorderStyle = BorderStyle.FixedSingle,
-                Text = "📌 PHÂN CÔNG NHIỆM VỤ THÀNH VIÊN:\r\n\r\n" +
-                       "👨‍💻 1. Bạn Phước: Thuật toán lõi, Flood Fill, First-click safe, Chording (frmGame.cs)\r\n\r\n" +
-                       "🎨 2. Bạn Kiên: Giao diện Main Menu & Hướng dẫn (frmMainMenu.cs, frmHuongDan.cs)\r\n\r\n" +
-                       "📊 3. Bạn Bách: Bảng thành tích, Đọc/Ghi file & Utility (cThanhTich.cs, frmThanhTich.cs)\r\n\r\n" +
-                       "🎬 4. Bạn Trung Anh: Kiểm thử (QA), Tích hợp Source Code, Form About, GitHub & Video Demo"
+                Text = "📌 PHÂN CÔNG NHIỆM VỤ NHÓM WINMEDIA :\r\n\r\n" +
+                       "👨‍💻 1. Bạn Nguyễn Thanh Phước.Mssv(51.01.104.078) : Thuật toán lõi, Flood Fill, First-click safe, Chording (frmGame.cs)\r\n\r\n" +
+                       "🎨 2. Bạn Nguyễn Trần Trung Kiên.Mssv(51.01.104.052) : Giao diện Main Menu & Hướng dẫn (frmMainMenu.cs, frmHuongDan.cs)\r\n\r\n" +
+                       "📊 3. Bạn Nguyễn Bách.Mssv(51.01.104.005) Bảng thành tích, Đọc/Ghi file & Utility (cThanhTich.cs, frmThanhTich.cs)\r\n\r\n" +
+                       "🎬 4. Bạn Nguyễn Trung Anh.Mssv(51.01.104.002) : Kiểm thử (QA), Tích hợp Source Code, GitHub, (frmAbout.cs)"
             };
 
             Button btnClose = new Button
